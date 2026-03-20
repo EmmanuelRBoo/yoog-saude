@@ -1,0 +1,27 @@
+.table-container {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-header > th {
+  border-bottom: 1px solid var(--default);
+  min-width: 120px;
+  padding: 4px;
+  text-align: start;
+}
+
+.table-cells:nth-child(even) {
+  background-color: var(--bg);
+  filter: brightness(96%);
+}
+
+.table-cells > td {
+  padding: 8px 4px;
+  text-align: start;
+}
+
+.table-cell-click:hover {
+  background-color: var(--bg);
+  cursor: pointer;
+  filter: brightness(90%);
+}

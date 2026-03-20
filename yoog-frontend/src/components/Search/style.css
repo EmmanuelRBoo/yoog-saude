@@ -1,0 +1,9 @@
+.select-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.select-container > span {
+  font-weight: 600;
+}

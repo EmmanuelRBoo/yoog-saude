@@ -1,0 +1,63 @@
+:root {
+  --green-1: rgb(36, 163, 44);
+  --red-1: rgb(194, 51, 51);
+  --default: rgb(72, 101, 229);
+  --bg: rgb(231, 231, 231);
+  --bg-2: rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html, body, #root {
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  align-items: center;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px; 
+  height: 100%;
+  width: 80%;
+}
+
+h1, .back-button {
+  margin-right: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+.form-link {
+  color: var(--default);
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.back-button {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 4px;
+}

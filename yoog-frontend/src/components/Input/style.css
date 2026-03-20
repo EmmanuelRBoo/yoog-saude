@@ -1,0 +1,16 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input-container > span {
+  font-weight: 600;
+}
+
+.input-container > input {
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 6px;
+}

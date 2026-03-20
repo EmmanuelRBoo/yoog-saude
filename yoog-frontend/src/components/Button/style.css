@@ -1,0 +1,39 @@
+.button-container {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  max-height: 44px;
+  min-width: 86px;
+  padding: 12px;
+}
+
+.button-container:hover {
+  filter: brightness(110%);
+}
+
+.button-container:active {
+  filter: brightness(90%);
+}
+
+.button-default {
+  background-color: var(--default);
+}
+
+.button-success {
+  background-color: var(--green-1);
+}
+
+.button-danger {
+  background-color: var(--red-1);
+}
+
+.button-left {
+  margin-right: auto;
+}
+
+.button-right {
+  margin-left: auto;
+}
